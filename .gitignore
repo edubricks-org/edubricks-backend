@@ -1,0 +1,73 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Django secret files
+*.env
+.env.*
+
+# Database files
+*.db
+*.sqlite3
+*.postgresql
+
+# Media files
+/media/*
+!media/.gitkeep
+
+# Static files
+/static/*
+!static/.gitkeep
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+venv.bak/
+
+# IDE & editor-related files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker-related files
+docker-compose.override.yml
+.docker/
+
+# Sentry error tracking
+.sentry/
+
+# Celery Beat schedule file
+celerybeat-schedule
+
+# PyCharm project files
+.idea/
+
+# Local development files
+.local/
+
+# Log files
+*.log
+
+# Local environment folder
+env/
+
+# Docker Compose configurations
+compose/
